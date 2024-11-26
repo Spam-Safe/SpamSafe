@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpamSafe</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>SpamSafe</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">Sobre el servicio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>Sobre el servicio</h2>
+      <p> Nuestro servicio consiste en ayudar a las personas a que puedan deshacerse del Spam para que puedan navegar en internet con mayor seguridad y tranquilidad. Los compromisos sociales de esta marca son garantizar la seguridad de las personas al hacer uso del internet y hacer frente a la problemática del calentamiento global, debido a que existen investigaciones que han demostrado que los correos electrónicos (como los que se envían para generar spam), pueden generar emisiones de co2 y estas son el principal causante de que esta problemática exista.
+</p>
+    </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+/* General Styles */
+body {
+  font-family: Nunito;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #3B99D8;
+}
+
+header {
+  background: #ffffff;
+  color: blue;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: blue;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input, form textarea, form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+footer {
+  text-align: center;
+  background: #ffffff;
+  padding: 10px 0;
+}
